@@ -1,0 +1,33 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.the-field-pro.com"
+        }
+      ],
+      "destination": "https://the-field-pro.com/$1",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/fieldpro-client-v4.html"
+    },
+    {
+      "source": "/fieldpro",
+      "destination": "/fieldpro-client-v4.html"
+    },
+    {
+      "source": "/fieldpro-admin",
+      "destination": "/fieldpro-v4.html"
+    },
+    {
+      "source": "/app",
+      "destination": "/fieldpro-client-v4.html"
+    }
+  ]
+}
