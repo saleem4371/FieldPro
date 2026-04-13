@@ -8,7 +8,7 @@
           "value": "www.the-field-pro.com"
         }
       ],
-      "destination": "https://the-field-pro.com/$1",
+      "destination": "http://the-field-pro.com/$1",
       "permanent": true
     }
   ],
